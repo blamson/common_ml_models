@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "common-ml-models"
+version = "0.1.09042024"
+description = ""
+authors = ["Brady Lamson <lamsonbrady@gmail.com>"]
+readme = "README.md"
+packages = [{include = "common_ml_models"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+matplotlib = "^3.8.4"
+scikit-learn = "^1.4.2"
+plotly = "^5.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
